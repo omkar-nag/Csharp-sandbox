@@ -3,9 +3,9 @@ using System.IO;
 using System.Reflection;
 
 
-internal class Program
+internal class MainClass
 {
-    private static void Main(string[] args)
+    private static void Main()
     {
 
         int[,,] a = new int[2,2,2];

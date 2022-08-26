@@ -8,11 +8,14 @@ enum BankOperation : byte
     Exit=4
 }
 
+struct Std
+{
+    public int roll;
+}
 internal class MainClass
 {
     private static void Main()
     {
-
         Account accountObj = new Account(10000);
         int amount = 0;
         BankOperation option;
@@ -53,6 +56,5 @@ internal class MainClass
             default:
                 goto Retry;
         }
-
     }
 }
