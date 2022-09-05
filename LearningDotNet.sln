@@ -79,6 +79,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmployeeLibrary", "Employee
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeligateLibrary", "DeligateLibrary\DeligateLibrary.csproj", "{00192651-5202-4C75-B2EE-EAA8A32E9706}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegateAndInterfaceExamples", "DelegateAndInterfaceExamples\DelegateAndInterfaceExamples.csproj", "{A01EAB40-1C3E-4326-8E97-428C0DFD1578}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -237,6 +239,10 @@ Global
 		{00192651-5202-4C75-B2EE-EAA8A32E9706}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{00192651-5202-4C75-B2EE-EAA8A32E9706}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{00192651-5202-4C75-B2EE-EAA8A32E9706}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A01EAB40-1C3E-4326-8E97-428C0DFD1578}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A01EAB40-1C3E-4326-8E97-428C0DFD1578}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A01EAB40-1C3E-4326-8E97-428C0DFD1578}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A01EAB40-1C3E-4326-8E97-428C0DFD1578}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
