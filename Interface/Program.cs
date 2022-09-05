@@ -1,6 +1,4 @@
-﻿using System.Runtime.CompilerServices;
-
-interface Shape
+﻿interface Shape
 {
     void Area();
 }
@@ -18,7 +16,7 @@ class Rectangle : Shape
         Console.WriteLine("Calculating Area of Rectangle");
     }
 }
-private class Square : Shape
+class Square : Shape
 {
     public void Area()
     {

@@ -1,7 +1,4 @@
-﻿using System.ComponentModel.DataAnnotations;
-using System.Runtime.CompilerServices;
-
-public class Employee
+﻿public class Employee
 {
     public int ID;
     public string Name;

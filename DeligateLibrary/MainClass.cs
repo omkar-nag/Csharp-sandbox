@@ -1,24 +1,18 @@
-﻿using DeligateLibrary;
-using System;
-
-
-
-delegate void PrintDelegate();
-class MainClass
+﻿namespace DeligateLibrary
 {
-    public delegate void PrintDeligate();
-    private static void Main()
+    delegate void PrintDelegate();
+    class MainClass
     {
-        Employee employee = new Employee(1,"Employee1");
-        Student student = new Student(1, "Student1");
-        Customer customer = new Customer(1, "Customer 1");
-        PrintDelegate del = employee.Display;
-        del+=student.Display;
-        del+=customer.Display;
-        Printer.Print(del);
-
-
-
-      
+        public delegate void PrintDeligate();
+        private static void Main()
+        {
+            Employee employee = new Employee(1,"MyEmployee");
+            Student student = new Student(2, "MyStudent");
+            Customer customer = new Customer(3, "MyCustomer");
+            PrintDelegate del = employee.Display;
+            del+=student.Display;
+            del+=customer.Display;
+            Printer.Print(del);
+        }
     }
 }
