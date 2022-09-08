@@ -11,9 +11,15 @@
             return String.Format($"{EmpId}\t {EmpName}\t {Salary}");
         }
 
+<<<<<<< Updated upstream
         public static List<Employee> FilterBySalaryBelow(List<Employee> empList, int salary)
         {
             var below = empList.FindAll(n => n.Salary < salary);
+=======
+        public static List<Employee> SalaryBelow10K(List<Employee> empList)
+        {
+            var below = empList.FindAll(n => n.Salary < 10000);
+>>>>>>> Stashed changes
             return below;
         }
 
@@ -22,7 +28,11 @@
             empList.Sort((n, x) => n.Salary.CompareTo(x.Salary));
         }
 
+<<<<<<< Updated upstream
         public static void RemoveBySalaryAbove(List<Employee> empList, int salaryCap)
+=======
+        public static void RemoveEmployee(List<Employee> empList, int salaryCap)
+>>>>>>> Stashed changes
         {
             empList.RemoveAll(n => n.Salary > salaryCap);
         }

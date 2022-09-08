@@ -79,7 +79,31 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmployeeLibrary", "Employee
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeligateLibrary", "DeligateLibrary\DeligateLibrary.csproj", "{00192651-5202-4C75-B2EE-EAA8A32E9706}"
 EndProject
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegateAndInterfaceExamples", "DelegateAndInterfaceExamples\DelegateAndInterfaceExamples.csproj", "{A01EAB40-1C3E-4326-8E97-428C0DFD1578}"
+=======
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Destructor", "Destructor\Destructor.csproj", "{DEB7052A-F383-487F-8D23-3815330A35CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DestructorFramework", "DestructorFramework\DestructorFramework.csproj", "{37967CA0-642F-4C1D-B8B4-EF21EF66D015}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dispose", "Dispose\Dispose.csproj", "{5D394A7B-598F-4D23-AB2D-DD94B2FF8D97}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Threading", "Threading\Threading.csproj", "{99950BD1-F2E2-4684-8555-B0D04E4890BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncAwait2", "AsyncAwait2\AsyncAwait2.csproj", "{7643CFE1-8F04-47CA-8E36-117B6297725F}"
+>>>>>>> Stashed changes
+=======
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DelegateAndInterfaceExamples", "DelegateAndInterfaceExamples\DelegateAndInterfaceExamples.csproj", "{A01EAB40-1C3E-4326-8E97-428C0DFD1578}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PartialMethods", "PartialMethods\PartialMethods.csproj", "{70830B9B-AA39-48F0-AEB6-E90AC3CFE8E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TasksAndThreads", "TasksAndThreads\TasksAndThreads.csproj", "{0AB59FCE-DBC0-4651-BCA0-40067DD53AE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParallelThreading", "ParallelThreading\ParallelThreading.csproj", "{86539044-232D-4D5A-91CD-2CCB2E487A54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncAwait", "AsyncAwait\AsyncAwait.csproj", "{D6C8D45E-41B7-4ED9-8D69-5D194D598EAA}"
+>>>>>>> Stashed changes
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -239,10 +263,52 @@ Global
 		{00192651-5202-4C75-B2EE-EAA8A32E9706}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{00192651-5202-4C75-B2EE-EAA8A32E9706}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{00192651-5202-4C75-B2EE-EAA8A32E9706}.Release|Any CPU.Build.0 = Release|Any CPU
+<<<<<<< Updated upstream
 		{A01EAB40-1C3E-4326-8E97-428C0DFD1578}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A01EAB40-1C3E-4326-8E97-428C0DFD1578}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A01EAB40-1C3E-4326-8E97-428C0DFD1578}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A01EAB40-1C3E-4326-8E97-428C0DFD1578}.Release|Any CPU.Build.0 = Release|Any CPU
+<<<<<<< Updated upstream
+=======
+		{DEB7052A-F383-487F-8D23-3815330A35CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEB7052A-F383-487F-8D23-3815330A35CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEB7052A-F383-487F-8D23-3815330A35CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEB7052A-F383-487F-8D23-3815330A35CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37967CA0-642F-4C1D-B8B4-EF21EF66D015}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37967CA0-642F-4C1D-B8B4-EF21EF66D015}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37967CA0-642F-4C1D-B8B4-EF21EF66D015}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37967CA0-642F-4C1D-B8B4-EF21EF66D015}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D394A7B-598F-4D23-AB2D-DD94B2FF8D97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D394A7B-598F-4D23-AB2D-DD94B2FF8D97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D394A7B-598F-4D23-AB2D-DD94B2FF8D97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D394A7B-598F-4D23-AB2D-DD94B2FF8D97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99950BD1-F2E2-4684-8555-B0D04E4890BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99950BD1-F2E2-4684-8555-B0D04E4890BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99950BD1-F2E2-4684-8555-B0D04E4890BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99950BD1-F2E2-4684-8555-B0D04E4890BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7643CFE1-8F04-47CA-8E36-117B6297725F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7643CFE1-8F04-47CA-8E36-117B6297725F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7643CFE1-8F04-47CA-8E36-117B6297725F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7643CFE1-8F04-47CA-8E36-117B6297725F}.Release|Any CPU.Build.0 = Release|Any CPU
+>>>>>>> Stashed changes
+=======
+		{70830B9B-AA39-48F0-AEB6-E90AC3CFE8E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70830B9B-AA39-48F0-AEB6-E90AC3CFE8E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70830B9B-AA39-48F0-AEB6-E90AC3CFE8E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70830B9B-AA39-48F0-AEB6-E90AC3CFE8E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AB59FCE-DBC0-4651-BCA0-40067DD53AE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AB59FCE-DBC0-4651-BCA0-40067DD53AE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AB59FCE-DBC0-4651-BCA0-40067DD53AE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AB59FCE-DBC0-4651-BCA0-40067DD53AE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86539044-232D-4D5A-91CD-2CCB2E487A54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86539044-232D-4D5A-91CD-2CCB2E487A54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86539044-232D-4D5A-91CD-2CCB2E487A54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86539044-232D-4D5A-91CD-2CCB2E487A54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6C8D45E-41B7-4ED9-8D69-5D194D598EAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6C8D45E-41B7-4ED9-8D69-5D194D598EAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6C8D45E-41B7-4ED9-8D69-5D194D598EAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6C8D45E-41B7-4ED9-8D69-5D194D598EAA}.Release|Any CPU.Build.0 = Release|Any CPU
+>>>>>>> Stashed changes
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
